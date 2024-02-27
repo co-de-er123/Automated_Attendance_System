@@ -17,3 +17,12 @@ OpenCV library.
 Face Recognition library.
 Firebase Admin SDK.
 Stable internet connection for Firebase integration.
+
+
+Usage
+Run the System: cssCopy code python main.py
+Register Faces: Add known face encodings to the system. Store corresponding details in Firebase.
+System Operation: The system will automatically detect and recognize faces. Attendance is logged in real-time to Firebase.
+Customization The system can be customized to handle specific requirements for different organizational environments. Firebase database structure and storage paths can be modified as needed.
+
+Troubleshooting Ensure all dependencies are correctly installed. Verify Firebase credentials and database connectivity. Check webcam functionality if face detection is not working.
